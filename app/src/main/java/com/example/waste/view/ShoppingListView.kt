@@ -1,9 +1,10 @@
-package com.example.waste
+package com.example.waste.view
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -25,7 +26,7 @@ class ShoppingListView @JvmOverloads constructor(
     fun testText() {
         Text("IS it worked",
             modifier = Modifier
-                .fillMaxSize()
+                .wrapContentSize()
                 .background(Color.Cyan))
     }
 }
